@@ -26,7 +26,7 @@ The YouTube bot offers the following features:
 Before using the YouTube bot, make sure you have the following requirements installed:
 
 - **Google Chrome browser**: The bot relies on Chrome for browser automation. Ensure that you have Chrome installed and updated to a compatible version.
-
+- **VPN ZEN-MATE**: The extension is loaded directly from the folder. That's why you will first have to have the downloaded Zen mate extension folder in the main folder.
 - **Selenium library**: Install the Selenium library, which is a popular tool for browser automation. You can install it using the following command:
 
 pip install selenium
