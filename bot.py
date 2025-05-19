@@ -25,6 +25,8 @@ busquedaEnYoutube = ""
 
 browser = ""
 
+#Path donde esta ubicada la extension Free-VPN-ZenMate-Best-VPN-for-Chrome
+ext_path = ""
 
 def modificarIndice(indice,listaComentarios):
     cantidadComentarios = len(listaComentarios)
@@ -239,7 +241,7 @@ def verificarLogin():
 def instalarExtension():
     global chrome_options
     chrome_options = uc.ChromeOptions()
-    chrome_options.add_argument('--load-extension=/Users/Tiziano/Desktop/!LIFE/Selenium/archivos/Free-VPN-ZenMate-Best-VPN-for-Chrome 2')
+    chrome_options.add_argument(f'--load-extension={ext_path}')
 
 def recargarServers():
     WebDriverWait(browser, 2).until(
